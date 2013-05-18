@@ -1,0 +1,34 @@
+---
+layout: participant
+title:  Brandon Keepers
+username: bkeepers
+company: GitHub
+hometown: Holland, MI
+tags:
+- ruby
+- javascript
+---
+
+<!-- Tell us a little about yourself. -->
+
+I a sailor and a developer.  It woudl be nice to do both at the same time.   
+
+<!-- Tell us something interesting. -->
+
+Here's one of my [favorite code snippets](https://gist.github.com/dpetersen/322146).
+
+{% highlight ruby %}
+module Kernel
+  def the(a, b)
+    Exception.new
+  end
+
+  def roof
+  end
+
+  def yo!
+  end
+end
+
+raise the roof, yo!
+{% endhighlight %}
